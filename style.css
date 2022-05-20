@@ -11,13 +11,15 @@ body {
 .header {
 display:flex;
 flex-direction:row;
-justify-content:flex-end;
+justify-content:flex-start;
 gap:32px;
 background-color:#1F2937;
 color:white;
 text-decoration:none;
-padding:16px;
-margin:10px;
+padding-top:2%;
+padding-right:8%;
+padding-left:8%;
+margin:5px;
 }
 .herotext {
     font-size:48px;
@@ -25,6 +27,8 @@ margin:10px;
     color:#F9FAF8;
     background-color:#1F2937;
     width:350px;
+    padding-left:10%;
+    padding-right:10%;
 }
 a {
     text-decoration:none;
@@ -43,7 +47,9 @@ li {
 color:#E5E7EB;
 font-size:18px;
 width:400px;
-height:50px;
+height:75px;
+padding-left:10%;
+padding-right:10%;
 }
 .button {
     background-color:#3882F6;
@@ -51,10 +57,10 @@ height:50px;
     display:flex;
     justify-content:center;
     align-items:center;
-    width:50px;
+    width:75px;
     height:15px;
     font-size:12px;
-    border-radius:10px;
+    border-radius:8%;
 }
 .keyboardintro {
     font-size:36px;
@@ -95,10 +101,81 @@ height:50px;
 }
 .thirdpart {
     display:flex;
+    background-color:#E5E7EB;
+    flex-direction:column;
 }
 .fourthpart {
     display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:#3882F6;
+    margin-bottom:50px;
+    margin-top:50px;
+    margin-left:20%;
+    margin-right:20%;
+    border-radius:5%;
+    gap:48px;
 }
 img {
     border-radius:15%;
+    max-width:100%;
+}
+.quote {
+    display:flex;
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    justify-content:center;
+    align-items:center;
+    padding-top:32px;
+    padding-right:32px;
+    padding-left:32px;
+}
+.quoter {
+    display:flex;
+    flex-direction:row;
+    margin-left: 75%;
+    font-size: 24px;
+    color:#1F2937;
+}
+.left-call {
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin:24px;
+    gap:0;
+    color:white;
+    font-style:bold;
+    font-size:18px;
+}
+#bottom-text {
+    color:#E5E7EB;
+    font-style:normal;
+    font-size:14px;
+}
+#sign-up {
+    border-style:solid;
+    border-color:#1F2937;
+}
+.footer {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    background-color:#1F2937;
+    color:#E5E7EB;
+    height:92px;
+    width:fill;
+}
+.keyboardcover {
+    display:flex;
+    flex-direction:row;
+    width:500px;
+    height:auto;
+    margin:2%;
+
+}
+#sign-up2 {
+    margin-left:10%;
 }
