@@ -1,2 +1,2 @@
 # Landing-Page-Website-Project
-A website project used to help learn html and css through the odin project.
+A website project used to help learn html and css through the odin project.  This website is completely for fun, and not serious at all.  It is modeled after a website that would sell keyboards, and all the images used were found under google images commercial and other licenses section.  Overall, this project taught me a lot about the fundamentals of html and css, along with the basics of flexbox for css.
